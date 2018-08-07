@@ -6,6 +6,8 @@ public class TbContent implements Serializable {
     /**
 	 * 
 	 */
+	
+	
 	private static final long serialVersionUID = 5030938068543748718L;
 
 	private Long id;

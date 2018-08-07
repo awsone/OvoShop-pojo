@@ -9,6 +9,23 @@ public class TbAddress implements Serializable {
 	 */
 	private static final long serialVersionUID = -8088389571629624572L;
 
+	public TbAddress(Long id, String userId, String provinceId, String cityId, String townId, String mobile,
+			String address, String contact, String isDefault, String notes, Date createDate, String alias) {
+		super();
+		this.id = id;
+		this.userId = userId;
+		this.provinceId = provinceId;
+		this.cityId = cityId;
+		this.townId = townId;
+		this.mobile = mobile;
+		this.address = address;
+		this.contact = contact;
+		this.isDefault = isDefault;
+		this.notes = notes;
+		this.createDate = createDate;
+		this.alias = alias;
+	}
+
 	private Long id;
 
     private String userId;
